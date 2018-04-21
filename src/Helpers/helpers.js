@@ -2,7 +2,7 @@ import Words from './Words';
 
 
 
-const randomWord = (num) => {
+const randomWords = (num) => {
   let res = [];
   
   while(num > 0){
@@ -15,5 +15,5 @@ const randomWord = (num) => {
 }
 
 export {
-  shuffleWords
+  randomWords
 }

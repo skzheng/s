@@ -1,6 +1,8 @@
 import React from 'react';
 import './Lobby.css';
 
+import fire from '../../Firebase/firebase';
+
 class Lobby extends React.Component {
   constructor(props){
     super(props)
