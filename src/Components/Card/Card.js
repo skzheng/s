@@ -1,4 +1,5 @@
 import React from 'react';
+import './Card.css';
 
 class Card extends React.Component {
   constructor(props){
@@ -11,7 +12,9 @@ class Card extends React.Component {
   render(){
     return (
       <div className="card">
-        <h1 className="card-text">{this.props.card.text}</h1>
+        <div className="line" />
+        <p className="card-text">{this.props.card}</p>
+        <div className="line" />
       </div>
     )
   }

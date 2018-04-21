@@ -1,2 +1,24 @@
 .card {
+  width: 16vw;
+  height: 10vw;
+  margin: 0.5rem;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 5px rgba(186, 189, 215, 0.447);
+  background-color: rgba(194, 167, 133, 0.351);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-text {
+  color: rgba(0, 0, 0, 0.536);
+  font-size: 2vw;
+  margin: 0;
+}
+
+.line {
+  color: black;
+  height: 1px;
+  width: 100%;
 }

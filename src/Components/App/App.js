@@ -6,15 +6,17 @@ import './App.css';
 import Navbar from '../Navbar/Navbar';
 import Lobby from '../Lobby/Lobby';
 import GameRoom from '../GameRoom/GameRoom';
+import Board from '../Board/Board';
 
 const history = createHistory();
 
 class App extends Component {
   render() {
     return (
-      <Router history={history}>
+      <Router>
         <div className="App">
           <Navbar />
+          <Board />
         
 
         <Route exact path="/" render={ () => {
